@@ -4,7 +4,6 @@ import { usePlants } from "./field.js";
 import { plantSeeds } from './tractor.js'
 
 
-
 const yearlyPlan = createPlan()
 
 const seeds = plantSeeds(yearlyPlan)
