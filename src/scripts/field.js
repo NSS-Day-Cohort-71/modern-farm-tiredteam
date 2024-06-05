@@ -1,4 +1,4 @@
-field = [];
+const field = [];
 
 export const addPlant = (seeds) => {
     if (Array.isArray(seeds)) {
