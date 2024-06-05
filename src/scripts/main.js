@@ -5,6 +5,8 @@ import { createPotato } from './seeds/potato.js'
 import { createSoybean } from './seeds/soybean.js'
 import { createSunflower } from './seeds/sunflower.js'
 import { createWheat } from './seeds/wheat.js'
+import { addPlant } from "./field.js"
+import { usePlants } from "./field.js";
 
 import { plantSeeds } from './tractor.js'
 
