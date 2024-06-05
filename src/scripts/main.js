@@ -6,4 +6,8 @@ import { plantSeeds } from './tractor.js'
 
 const yearlyPlan = createPlan()
 
-const seeds = plantSeeds(yearlyPlan)
+
+
+
+
+
