@@ -2,7 +2,7 @@ const field = [];
 
 export const addPlant = (seeds) => {
     if (Array.isArray(seeds)) {
-        for ( seed of seeds) {
+        for (seed of seeds) {
             field.push(seed)
         }
     } else {

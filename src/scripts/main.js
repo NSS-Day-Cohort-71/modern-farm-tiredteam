@@ -8,8 +8,6 @@ import { createWheat } from './seeds/wheat.js'
 import { addPlant } from "./field.js"
 import { usePlants } from "./field.js";
 
-console.log("Welcome to the main module")
-
 const yearlyPlan = createPlan()
 const asparagusSeed = createAsparagus()
 console.log(asparagusSeed)
@@ -23,3 +21,5 @@ const sunflowerSeed = createSunflower()
 console.log(sunflowerSeed)
 const wheatSeed = createWheat()
 console.log(wheatSeed)
+
+
