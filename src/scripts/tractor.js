@@ -10,8 +10,6 @@ export const plantSeeds = (yearlyPlanArr) => {
     for (let i = 0; i < yearlyPlanArr.length; i++) {
         for (let j = 0; j < yearlyPlanArr[i].length; j++) {
             if (yearlyPlanArr[i][j] === "Asparagus") {
-                // let asparagusSeed = createAsparagus()
-                // addPlant(asparagusSeed)
                 addPlant(createAsparagus())
             }
             if (yearlyPlanArr[i][j] === "Corn") {
