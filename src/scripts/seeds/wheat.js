@@ -1,5 +1,4 @@
 export const createWheat = () => {
-    // create object + properties
 
     const wheatObj = {
         type: "Wheat",

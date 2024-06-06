@@ -1,5 +1,4 @@
 export const createSoybean = () => {
-    // create object + properties
 
     const soybeanObj = {
         type: "Soybean",

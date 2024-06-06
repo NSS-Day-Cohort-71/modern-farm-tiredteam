@@ -1,5 +1,4 @@
 export const createSunflower = () => {
-    // create object + properties
 
     const sunflowerObj = {
         type: "Sunflower",

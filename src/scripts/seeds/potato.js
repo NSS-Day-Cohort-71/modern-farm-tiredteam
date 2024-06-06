@@ -1,5 +1,4 @@
 export const createPotato = () => {
-    // create object + properties
 
     const potatoObj = {
         type: "Potato",
