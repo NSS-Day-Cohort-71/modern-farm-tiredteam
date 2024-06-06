@@ -9,7 +9,7 @@ select,
 textarea {
 	color: #404040;
 	font-family: "Comfortaa", Arial, sans-serif;
-	font-size: 14px;
+	font-size: 20px;
 	line-height: 1.5;
 }
 
@@ -32,5 +32,20 @@ h1,h2,h3,h4,h5,h6 {
 
 .red {
     background-color: darksalmon;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    padding: 20px; 
+    background-color: bisque;
+    justify-content: space-between;
+}
+
+.plant {
+  margin: 20px; 
+  padding: 20px; 
+  text-align: center;
 }
 
