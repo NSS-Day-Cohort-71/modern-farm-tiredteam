@@ -1,6 +1,5 @@
 export const createCorn = () => {
-    // create object + properties
-
+    
     const cornArr = [
         {
         type: "Corn",

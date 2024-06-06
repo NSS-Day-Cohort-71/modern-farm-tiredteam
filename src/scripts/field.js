@@ -1,14 +1,13 @@
 const field = [];
 
-export const addPlant = (seeds) => {
-    if (Array.isArray(seeds)) {
-        for (seed of seeds) {
-            field.push(seed)
+export const addPlant = (seed) => {
+    if (Array.isArray(seed)) {
+        for (const index of seed) {
+            field.push(index)
         }
     } else {
         field.push(seed)
     }
-
 }
 
 export const usePlants = () => {
