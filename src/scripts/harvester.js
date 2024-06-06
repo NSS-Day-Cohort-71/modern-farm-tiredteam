@@ -2,8 +2,8 @@ export const harvestPlants = (growingPlantsArr) => {
     let plantsToHarvest = []
     for (const plant of growingPlantsArr) {
         if (plant.type === "Corn") {
-            plant.output = plant.output / 2
-            for (let i = 0; i < plant.output; i++) {
+            const halfCornOutput = plant.output / 2
+            for (let i = 0; i < halfCornOutput; i++) {
                 plantsToHarvest.push(plant)
             }
         } else {
